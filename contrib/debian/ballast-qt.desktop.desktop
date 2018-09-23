@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Ballast
+Comment=Ballast P2P Cryptocurrency
+Exec=ballast-qt %u
+Terminal=false
+Type=Application
+Icon=ballast128
+MimeType=x-scheme-handler/ballast;
+Categories=Office;Finance;
+Name[en_US]=ballast-qt.desktop
