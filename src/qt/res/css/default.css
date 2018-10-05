@@ -10,8 +10,8 @@
 /* medium-green1:     #FF3A00 (main green for dark backgrounds)                         */
 /* medium-green2:     #FF3A00 (sligtly darker for gradients)                            */
 /*                                                                                      */
-/* background:         #FCAFAF                                                          */
-/* input fields:       #FCAFAF                                                          */
+/* background:         #f2f2f2                                                          */
+/* input fields:       #f2f2f2                                                          */
 /****************************************************************************************/
 /*                                                                                      */
 /* Note: it's sometimes not easy to figure out all those screen elements, so unused     */
@@ -21,7 +21,7 @@
 /****************************************************************************************/
 
 WalletFrame {
-	background-image: url(':/images/walletFrame') no-repeat fixed;
+        background-image: url(':/images/walletFrame') no-repeat stretch;
 	background-color: #ffffff;
 	background-position: left bottom;
 	border-top: 0px solid #000;
@@ -50,11 +50,11 @@ QMenuBar::item {
 }
 
 QMenuBar::item:selected {
-	background-color:#FCAFAF;
+	background-color:#f2f2f2;
 }
 
 QMenu {
-	background-color:#FCAFAF;
+	background-color:#f2f2f2;
 }
 
 QMenu::item {
@@ -86,14 +86,14 @@ QToolBar > QToolButton {
 }
 
 QToolBar > QToolButton:checked {
-	background-color: #fff;
-	color:#333;
+	background-color: #727376;
+	color:#fff;
 	font-weight:bold;
 }
 
 QToolBar > QToolButton:hover {
-	background-color: #fff;
-	color: #333;
+	background-color: #727376;
+	color: #fff;
 }
 
 QMessageBox {
@@ -185,17 +185,17 @@ QLabel { /* Base Text Size & Color */
 
 .QValidatedLineEdit:!focus {
 	color: #333;
-	background-color: #FCAFAF;
+	background-color: #f2f2f2;
 }
 
 .QLineEdit:!focus {
 	color: #333;
-	background-color: #FCAFAF;
+	background-color: #f2f2f2;
 }
 
 .QTextEdit:!focus {
 	color: #333;
-	background-color: #FCAFAF;
+	background-color: #f2f2f2;
 }
 
 /* .QValidatedLineEdit:checked, .QLineEdit:checked */
@@ -377,7 +377,7 @@ QValueComboBox {
 
 QValueComboBox:!focus {
 	color:#5c4c7c;
-	background-color:#FCAFAF;
+	background-color:#f2f2f2;
 }
 
 /****************************************************************************************/
@@ -566,7 +566,7 @@ QSlider::add-page:horizontal {
 }
 
 QSlider::handle:horizontal {
-	background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #fff, stop:1 #FCAFAF);
+	background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #fff, stop:1 #f2f2f2);
 	border: 1px solid #333;
 	width: 18px;
 	height: 18px;
@@ -603,7 +603,7 @@ QDialog .QTabWidget::pane {
 }
 
 QDialog .QTabWidget QTabBar::tab {
-	background-color:#FCAFAF;
+	background-color:#f2f2f2;
 	color:#333;
 	padding-left:10px;
 	padding-right:10px;
