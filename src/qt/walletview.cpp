@@ -80,7 +80,7 @@ WalletView::WalletView(QWidget* parent) : QStackedWidget(parent),
     labelOverviewHeaderRight->setFont(fontHeaderRight);
     labelOverviewHeaderRight->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
 
-    horizontalLayout_Header->addWidget(labelOverviewHeaderRight);
+    // horizontalLayout_Header->addWidget(labelOverviewHeaderRight);
     horizontalLayout_Header->setStretch(0, 1);
     horizontalLayout_Header->setStretch(2, 1);
     verticalLayout_8->addLayout(horizontalLayout_Header);
