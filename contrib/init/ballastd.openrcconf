@@ -1,0 +1,26 @@
+# /etc/conf.d/ballastd: config file for /etc/init.d/ballastd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/ballast/ballast.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/ballastd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/ballastd.pid"
+
+# Where to write ballastd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/ballastd"
+
+# User and group to own ballastd process
+#BITCOIND_USER="ballast"
+#BITCOIND_GROUP="ballast"
+
+# Path to ballastd executable
+#BITCOIND_BIN="/usr/bin/ballastd"
+
+# Nice value to run ballastd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
